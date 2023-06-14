@@ -4,12 +4,12 @@
     "slug": "luci",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/images/logo-login.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/images/simplisctics.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#F50036"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/images/logo-login.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.santiago1997.luci"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./src/images/logo-login.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5039146a-d514-4d1d-b773-4191ec71ee96"
+      }
+    },
+    "owner": "santiago1997"
   }
 }
